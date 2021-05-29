@@ -83,7 +83,7 @@ class Main(object):
         search_bar.pack(fill=BOTH)
         self.lbl_search=Label(search_bar,text='Search :', font='arial 12 bold',bg='#9bc9ff',fg='white')
         self.lbl_search.grid(row=0,column=0,padx=20,pady=10)
-        self.ent_search=Entry(search_bar,width=30,bd=7)
+        self.ent_search=Entry(search_bar,width=30,bd=10)
         self.ent_search.grid(row=0,column=1,columnspan=3,padx=10,pady=10)
         self.btn_search=Button(search_bar,text='Search',font='arial 12',bg='#fcc324',fg='white',
                                command=self.searchBooks)
