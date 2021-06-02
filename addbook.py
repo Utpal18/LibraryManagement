@@ -9,6 +9,7 @@ class AddBook(Toplevel):
         Toplevel.__init__(self)
         self.geometry("650x750+550+200")
         self.title("Add Book")
+        self.iconbitmap("C:/Users/dell/Desktop/Project/add_book_ico.ico")
         self.resizable(False,False)
 
         #######################Frames#######################
