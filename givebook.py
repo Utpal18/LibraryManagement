@@ -11,6 +11,7 @@ class GiveBook(Toplevel):
         Toplevel.__init__(self)
         self.geometry("650x750+550+200")
         self.title("Lend Book")
+        self.iconbitmap("C:/Users/dell/Desktop/Project/givebook_ico.ico")
         self.resizable(False,False)
 
         query="SELECT * FROM books WHERE book_status=0"

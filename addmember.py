@@ -9,6 +9,7 @@ class AddMember(Toplevel):
         Toplevel.__init__(self)
         self.geometry("650x750+550+200")
         self.title("Add Member")
+        self.iconbitmap("C:/Users/dell/Desktop/Project/addperson_icon.ico")
         self.resizable(False,False)
 
         #######################Frames#######################
